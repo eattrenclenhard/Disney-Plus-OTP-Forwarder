@@ -1,0 +1,20 @@
+{
+  "name": "disneyplus-otp-forwarder",
+  "version": "1.0.0",
+  "description": "Forwards Disney Plus OTP to Telegram",
+  "license": "ISC",
+  "author": "eattrenclenhard",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.7",
+    "mailparser": "^3.7.2",
+    "moment-timezone": "^0.5.46",
+    "node-imap": "^0.9.6",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
